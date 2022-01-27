@@ -41,9 +41,9 @@ INSTALLED_APPS = [
     'mptt',
     'ckeditor',
 
-    'blog',
-    'contact',
-    'gallery',
+    'blog.apps.BlogConfig',
+    'contact.apps.ContactConfig',
+    'gallery.apps.GalleryConfig',
 ]
 
 MIDDLEWARE = [
