@@ -49,3 +49,12 @@ class Social(models.Model):
     icon = models.FileField(upload_to="icons/")
     name = models.CharField(max_length=200)
     link = models.URLField()
+
+
+
+
+
+
+
+
+
